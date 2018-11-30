@@ -30,13 +30,13 @@ Ela foi desenvolvida em 1962 e seu nome é devido a quem publicou o primeiro tra
 
 A curva baseia seu cálculo no Binômio de Newton para a resolução de seus coeficientes e é resolvida facilmente através de:
 
-{\displaystyle {\left(x+y\right)}^{n}=\sum _{k=0}^{n}{n \choose k}x^{n-k}y^{k}\,\!.\;\;x=t\;,\;y=(1-t)}
+![](Imagens/bezier.png)
 
-O índice t é um valor de parametrização para percorrer a curva e pode ser qualquer valor entre zero e um, n é o grau do Binômio, tal que usamos {\displaystyle n+1} n+1 pontos de controle para cada curva que desejamos desenhar. {\displaystyle \scriptstyle {n \choose k}} {\displaystyle \scriptstyle {n \choose k}} são coeficientes binomiais. 
+O índice t é um valor de parametrização para percorrer a curva e pode ser qualquer valor entre zero e um, n é o grau do Binômio, tal que usamos n+1 pontos de controle para cada curva que desejamos desenhar. (n k)são coeficientes binomiais. 
 
 A curva implementada foi a Curva de Bêzier Cúbica:
 
-{\displaystyle \mathbf {B} (t)=(1-t)^{3}\mathbf {B} _{0}+3t(1-t)^{2}\mathbf {B} _{1}+3t^{2}(1-t)\mathbf {B} _{2}+t^{3}\mathbf {B} _{3}{\mbox{ , }}t\in [0,1].}
+![](Imagens/bezier_cubico.png)
 
 Como Utilizar (Manual do Usuário):
 

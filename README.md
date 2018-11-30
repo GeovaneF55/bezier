@@ -22,6 +22,22 @@ Ao instalar as dependências e estando dentro da pasta raíz do projeto, vá par
 
 $ python3 bezier.py
 
+Curva de Bêzier:
+
+É uma curva polinomial expressa como a interpolação linear entre alguns pontos representativos, chamados de pontos de controle. Esse tipo de curva também pode originar Superfícies de Bézier, bastante utilizadas em modelagem tridimensional, animações, design de produtos, engenharia, arquitetura entre outras aplicações.
+
+Ela foi desenvolvida em 1962 e seu nome é devido a quem publicou o primeiro trabalho sobre a curva, o francês Pierre Bézier, funcionário da Renault, que a usou para o design de automóveis. Ela foi estruturada a partir do algoritmo de Paul de Casteljau, da Citroën, em 1957, e foi formalizada na década de 60.
+
+A curva baseia seu cálculo no Binômio de Newton para a resolução de seus coeficientes e é resolvida facilmente através de:
+
+{\displaystyle {\left(x+y\right)}^{n}=\sum _{k=0}^{n}{n \choose k}x^{n-k}y^{k}\,\!.\;\;x=t\;,\;y=(1-t)}
+
+O índice t é um valor de parametrização para percorrer a curva e pode ser qualquer valor entre zero e um, n é o grau do Binômio, tal que usamos {\displaystyle n+1} n+1 pontos de controle para cada curva que desejamos desenhar. {\displaystyle \scriptstyle {n \choose k}} {\displaystyle \scriptstyle {n \choose k}} são coeficientes binomiais. 
+
+A curva implementada foi a Curva de Bêzier Cúbica:
+
+{\displaystyle \mathbf {B} (t)=(1-t)^{3}\mathbf {B} _{0}+3t(1-t)^{2}\mathbf {B} _{1}+3t^{2}(1-t)\mathbf {B} _{2}+t^{3}\mathbf {B} _{3}{\mbox{ , }}t\in [0,1].}
+
 Como Utilizar (Manual do Usuário):
 
 No menu superior temos os seguintes botões:

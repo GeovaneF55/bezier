@@ -1,4 +1,4 @@
-Instalação & Execução
+# Instalação & Execução
 
 Método para funcionamento no Ubuntu:
 
@@ -22,7 +22,7 @@ Ao instalar as dependências e estando dentro da pasta raíz do projeto, vá par
 
 $ python3 bezier.py
 
-Curva de Bêzier:
+# Curva de Bêzier:
 
 É uma curva polinomial expressa como a interpolação linear entre alguns pontos representativos, chamados de pontos de controle. Esse tipo de curva também pode originar Superfícies de Bézier, bastante utilizadas em modelagem tridimensional, animações, design de produtos, engenharia, arquitetura entre outras aplicações.
 
@@ -38,7 +38,7 @@ A curva implementada foi a Curva de Bêzier Cúbica:
 
 ![](Imagens/bezier_cubico.png)
 
-Como Utilizar (Manual do Usuário):
+# Como Utilizar (Manual do Usuário):
 
 No menu superior temos os seguintes botões:
 
@@ -54,7 +54,7 @@ No menu superior temos os seguintes botões:
 
 Na  Toolbar superior temos os mesmos botões do menu superior do grupo de Arquivo
 
-Organização do Código:
+# Organização do Código:
 
 O Código contém as seguintes classes:
 
